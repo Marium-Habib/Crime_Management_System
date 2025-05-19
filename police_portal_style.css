@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1e293b;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 60px auto 30px auto; /* More top spacing */
+    max-width: 30%;              /* Smaller image size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f1f5f9;
+    font-size: 28px;
+    border-bottom: 2px solid #3b82f6;
+    display: inline-block;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card h3 {
+    color: #3b82f6;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #cbd5e1;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card button:hover {
+    background-color: #2563eb;
+}
+
+.martyrs {
+    text-align: center;
+}
+
+.martyrs ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.martyrs li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #94a3b8;
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00b4d8;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #0077b6;
+}
+
+.content-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content-page p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* Login button style */
+.login-button {
+    display: block;
+    margin: 50px auto;
+    padding: 12px 30px;
+    background-color: #114181;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;         /* 👈 Bari font */
+    font-weight: bold;       /* 👈 Bold font */
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: fit-content;
+}
+
+.login-button:hover {
+    background-color: #002f70;
+}
+
